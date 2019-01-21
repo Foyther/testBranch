@@ -5,6 +5,7 @@ public class Main {
 		event.setEvent("im a new event");
 		event.setEvent("im a pirat, hahahah");
 		event.setEvent("no, here im a main branch");
+		event.setEvent("stop, please");
         System.out.println("Hello, " + event.getEvent() + "main branch");
     }
 }
