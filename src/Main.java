@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello, im a new branch!");
+		Event event  = new Event();
+		event.setEvent("im a new event");
+        System.out.println("Hello, " + event.getEvent());
     }
 }
