@@ -4,7 +4,6 @@ public class Main {
 		Event event  = new Event();
 		event.setEvent("new game");
 		event.setEvent("new game2");
-		event.setEvent("new game3");
         System.out.println("Hello, " + event.getEvent() + "main branch");
     }
 }
